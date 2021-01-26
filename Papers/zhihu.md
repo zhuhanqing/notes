@@ -22,7 +22,7 @@ torch.cuda_avaliable()
 
 我们采用的是本地图床+github在线访问的方式，即将图片存放在markdown文件同位置下的assets文件夹中，使用相对路径；在发表在网络中时，利用一定的脚本对markdown中的图片链接进行全替换为github中的链接，从而达到效果。
 
-
+![image-20210126213132942](assets/image-20210126213132942.png)
 
 所以需要做到实时同步github，我们可以使用crontab命令进行实时检测仓库变动；
 
